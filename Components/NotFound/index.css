@@ -1,0 +1,19 @@
+.not-found-bg {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nf-heading {
+  font-family: 'Roboto';
+  color: white;
+}
+
+.nf-desc {
+  font-family: 'Roboto';
+  color: white;
+  margin-top: 0px;
+}

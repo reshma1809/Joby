@@ -1,0 +1,126 @@
+.profile-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  heigth: 500px;
+  width: 300px;
+  padding: 15px;
+  padding-top: 25px;
+  border-radius: 15px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  color: #6366f1;
+  font-size: 28px;
+  margin-top: 4px;
+}
+
+.profile-bio {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+
+.jobs-btm-sec-container {
+  background-color: black;
+  display: flex;
+  padding: 50px;
+}
+
+.jobs-ul-container {
+  padding-left: 0px;
+}
+
+.jobs-btm-sec-first-container {
+  width: 30%;
+}
+
+.jobs-btm-sec-second-container {
+  width: 70%;
+}
+
+.label-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.jobs-input-el {
+  background-color: transparent;
+  border-width: 0px;
+  width: 250px;
+  font-size: 12px;
+  padding: 8px;
+  outline: none;
+  color: white;
+  flex-grow: 1;
+}
+
+.jobs-search-btn {
+  background-color: #272727;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-search-btn-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-icon {
+  color: #cbd5e1;
+}
+
+.jobs-hr {
+  margin-right: 45px;
+}
+
+.jobs-unordered-list {
+  padding-left: 0px;
+  color: white;
+}
+
+.profile-failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container-jobs {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  height: 350px;
+  width: 400px;
+}
+
+.failure-view-heading {
+  font-family: 'Roboto';
+  color: white;
+  margin-bottom: 15px;
+}
+
+.failure-view-para {
+  font-family: 'Roboto';
+  color: white;
+  margin-top: 0px;
+  font-size: 12px;
+}

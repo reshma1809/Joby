@@ -1,0 +1,38 @@
+.home-btm-sec-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 70px;
+  padding-top: 0px;
+  margin-top: 0px;
+  max-width: 600px;
+}
+
+.home-para {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 24px;
+  max-width: 600px;
+}
+
+.home-btn {
+  font-family: 'Roboto';
+  color: white;
+  background-color: #6366f1;
+  border-width: 0px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 110px;
+  height: 45px;
+  margin-right: 25px;
+  margin-top: 20px;
+  padding: 15px;
+}

@@ -1,0 +1,21 @@
+import './index.css'
+
+const EmploymentList = props => {
+  const {employmentDetails, onChangeCheckbox} = props
+  const {employmentTypeId, label} = employmentDetails
+
+  const onChangeInputEl = event => {
+    onChangeCheckbox(event.target.checked, employmentTypeId)
+  }
+
+  return (
+    <li className="el-list-item-container">
+      <input type="checkbox" id={employmentTypeId} onClick={onChangeInputEl} />
+      <label htmlFor={employmentTypeId} className="employement-label-el">
+        {label}
+      </label>
+    </li>
+  )
+}
+
+export default EmploymentList
